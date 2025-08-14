@@ -3,11 +3,11 @@ import { Skill } from "@/types";
 export const skills: Skill[] = [
   {
     title: "Next.js",
-    progress: "30",
+    progress: "20",
   },
   {
     title: "React.js",
-    progress: "60",
+    progress: "40",
   },
   {
     title: "HTML",
@@ -15,7 +15,7 @@ export const skills: Skill[] = [
   },
   {
     title: "JavaScript",
-    progress: "70",
+    progress: "60",
   },
   {
     title: "TypeScript",
@@ -31,7 +31,7 @@ export const skills: Skill[] = [
   },
    {
     title: "PHP",
-    progress: "40",
+    progress: "30",
   },
   {
     title: "Python",
@@ -39,7 +39,7 @@ export const skills: Skill[] = [
   },
   {
     title: "Tailwind CSS",
-    progress: "40",
+    progress: "30",
   },
     {
     title: "CSS",

@@ -77,7 +77,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>Node.js</li>
               <li>Express</li>
-              <li>PostgreSQL</li>
+              <li>MySql</li>
               <li>MongoDB</li>
             </ul>
           </motion.div>
@@ -91,9 +91,6 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
-              <li>Docker</li>
-              <li>AWS</li>
-              <li>CI/CD</li>
             </ul>
           </motion.div>
         </motion.div>
@@ -136,7 +133,7 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">{"web-based system for Dasmarinas City's Business Permits and Licensing Office"}</h3>
+            <h3 className="text-xl font-semibold mb-2">{"Web-based System for Dasmarinas City's Business Permits and Licensing Office"}</h3>
             <p className="text-primary mb-2">Capstone project • 2024 - 2025</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Developed and maintained RESTful APIs</li>
