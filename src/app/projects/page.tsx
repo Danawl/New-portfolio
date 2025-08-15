@@ -32,7 +32,9 @@ export default function Projects() {
         initial="initial"
         animate="animate"
       >
-        {projects.map((project, index) => (
+        {projects
+        .filter((project) => project.description !== 'Coming soon')  
+        .map((project, index) => (
           <motion.div
             key={index}
             className="bg-white dark:bg-dark/50 rounded-lg shadow-md overflow-hidden"

@@ -10,7 +10,7 @@ import { Project } from '@/types'
 export default function Projects() {
   return (
     <section className="py-20">
-      <div className="container max-w-7xl mx-auto px-4">
+      <div className="container max-w-7xl mx-auto px-4 ">
         <motion.h2 
           className="text-3xl font-bold mb-12 text-center"
           {...fadeInUp}
@@ -24,7 +24,9 @@ export default function Projects() {
           initial="initial"
           animate="animate"
         >
-          {projects.map((project: Project) => (
+          {projects
+          .filter((project: Project) => project.description !== 'Coming soon')
+          .map((project: Project) => (
             <motion.article
               key={project.id}
               className="bg-white dark:bg-dark/50 rounded-lg shadow-md p-6"

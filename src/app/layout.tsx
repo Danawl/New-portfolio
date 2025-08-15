@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MyPortfolio | Portfolio Website using Next.js, Tailwind CSS, and Framer Motion",
-  description: "MyPortfolio is a portfolio website for developers to showcase their projects and skills.",
+  title: "Myfolio |  Daniel Awil",
+  description: "Myfolio is a portfolio website to showcase my projects and skills.",
 };
 
 export default function RootLayout({
