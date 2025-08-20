@@ -8,8 +8,8 @@ interface ContactRequestBody {
 
 export async function POST(request: Request) {
   try {
-    const { name, email, message } = await request.json() as ContactRequestBody
-    if (!name || !email || !message) {
+    const { name, message } = await request.json() as ContactRequestBody
+    if (!name || !message) {
       return NextResponse.json(
         { message: 'All fields are required' },)
     }
@@ -21,10 +21,10 @@ export async function POST(request: Request) {
       }
     })
     await transporter.sendMail ({
-      from: email,
+      from: process.env.GMAIL_USER,
       to: process.env.GMAIL_USER,
-      subject: `New message from ${name}`,
-      text: message,
+       subject: `New message from ${name}`,
+       text: message,
     })
     // For now, we'll just simulate a successful response
     return NextResponse.json(
