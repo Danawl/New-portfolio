@@ -46,7 +46,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Danawl"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -56,7 +56,7 @@ export default function Hero() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/daniel-awil-ba7726217/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -66,7 +66,7 @@ export default function Hero() {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://x.com/dannwl"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -104,6 +104,12 @@ export default function Hero() {
               </Link>
             </motion.div>
           </motion.div>
+          <Link
+            href="/Dan_Resume.pdf"
+            className="inline-block mt-8 bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition-colors"
+          >
+            View Resume
+          </Link>
         </div>
       </div>
     </section>
