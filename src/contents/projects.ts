@@ -7,7 +7,7 @@ export const projects: Project[] = [
         title: 'Permit License Website',
         description: 'A full-stack web application capstone project that allows users to create and manage permits and licenses.',
         technologies: ['React.js', 'Express.js', 'Node.js', 'MongoDB'],
-        githubLink: 'https://github.com',
+        githubLink: 'https://github.com/RJustn/Capstone-Project',
         demoLink: 'https://owbpls-akatsuki-team.vercel.app/',
         image: '/projects/obplws.png',
       },
