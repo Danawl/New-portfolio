@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeInUp, fadeIn, scaleIn } from '@/utils/animations';
-import profilePic from '@/assets/mehhmask.jpg';
+import profilePic from '@/assets/gradpic.png';
 
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
             {...scaleIn}
             transition={{ delay: 0.2 }}
           >
-            <Image src={profilePic} alt="Profile" width={100} height={100} className="rounded-full mb-4 w-32 h-32 object-cover ring-2 ring-primary" />
+            <Image src={profilePic} alt="Profile" width={256} height={256} className="rounded-full mb-4 w-44 h-44 object-cover ring-2 ring-primary" />
           </motion.div>
           <motion.h1 
             className="text-4xl md:text-6xl font-bold mb-6"
@@ -38,7 +38,7 @@ export default function Hero() {
             {...fadeInUp}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer | UI/UX | Free Lancing
+            Web Developer | UI/UX 
           </motion.p>
           <motion.div 
             className="flex justify-center space-x-4 mb-8"

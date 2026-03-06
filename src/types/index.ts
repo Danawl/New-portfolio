@@ -10,5 +10,5 @@ export interface Project {
 
 export interface Skill {
   title: string;
-  progress: string;
+  Proficiency: string;
 }

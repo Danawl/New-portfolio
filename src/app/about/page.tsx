@@ -28,7 +28,7 @@ export default function About() {
         {...fadeInUp}
       >
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          I&apos;m a passionate Full Stack Developer with expertise in building modern web applications.
+          I&apos;m a passionate Web Developer with expertise in building modern web applications.
           With a strong foundation in both frontend and backend technologies, I create seamless
           user experiences and robust server-side solutions.
         </p>
@@ -58,12 +58,16 @@ export default function About() {
             {...cardHover}
           >
             <FaCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Frontend</h3>
+            <h3 className="text-xl font-semibold mb-2">Language</h3>
             <ul className="text-secondary space-y-2">
-              <li>React / Next.js</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
               <li>TypeScript</li>
-              <li>Tailwind CSS</li>
-              <li>HTML5 / CSS3</li>
+              <li>PHP</li>
+              <li>C#</li>
+              <li>SQL</li>
+              <li>Python</li>
             </ul>
           </motion.div>
           
@@ -72,15 +76,18 @@ export default function About() {
             variants={fadeInUp}
             {...cardHover}
           >
-            <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Backend</h3>
+             <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
+            <h3 className="text-xl font-semibold mb-2">Framework</h3>
             <ul className="text-secondary space-y-2">
+              <li>ReactJS</li>
+              <li>Next.js</li>
               <li>Node.js</li>
-              <li>Express</li>
-              <li>MySql</li>
-              <li>MongoDB</li>
+              <li>Express.js</li>
+              <li>MERN Stack</li>
+              <li>WordPress</li>
+              <li>.Net</li>
             </ul>
-          </motion.div>
+          </motion.div> 
           
           <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
@@ -90,7 +97,15 @@ export default function About() {
             <FaGraduationCap className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
-              <li>Git / GitHub</li>
+                <li>Git / GitHub</li>
+                <li>Wireshark</li>
+                <li>Elastic (ELK)</li>
+                <li>Wazuh</li>
+                <li>Znuny</li>
+                <li>Log Analysis</li>
+                <li>Malware Analysis</li>
+                <li>NIST Cybersecurity Framework</li>
+              
             </ul>
           </motion.div>
         </motion.div>

@@ -3,63 +3,65 @@ import { Skill } from "@/types";
 export const skills: Skill[] = [
   {
     title: "Next.js",
-    progress: "20",
+    Proficiency: "20",
   },
   {
     title: "React.js",
-    progress: "40",
+    Proficiency: "40",
   },
   {
     title: "HTML",
-    progress: "90",
+    Proficiency: "90",
   },
   {
     title: "JavaScript",
-    progress: "60",
+    Proficiency: "60",
   },
   {
     title: "TypeScript",
-    progress: "50",
+    Proficiency: "50",
   },
   {
     title: "Node.js",
-    progress: "90",
+    Proficiency: "80",
   },
   {
     title: "Express.js",
-    progress: "60",
+    Proficiency: "60",
   },
    {
     title: "PHP",
-    progress: "30",
+    Proficiency: "30",
   },
   {
     title: "Python",
-    progress: "10",
+    Proficiency: "10",
   },
   {
     title: "Tailwind CSS",
-    progress: "30",
+    Proficiency: "30",
   },
     {
     title: "CSS",
-    progress: "80",
+    Proficiency: "80",
   },
   {
     title: "Bootstrap",
-    progress: "60",
+    Proficiency: "60",
   },
     {
+
     title: "MongoDB",
-    progress: "80",
+    Proficiency: "80",
   },
     {
+
     title: "MySQL",
-    progress: "70",
+    Proficiency: "70",
   },
    {
     title: "Git",
-    progress: "80",
+    Proficiency: "80",
   },
 
 ];

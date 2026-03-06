@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 interface ContactRequestBody {
   name: string;
-  email: string;
   message: string;
 }
 
@@ -26,7 +25,6 @@ export async function POST(request: Request) {
        subject: `New message from ${name}`,
        text: message,
     })
-    // For now, we'll just simulate a successful response
     return NextResponse.json(
       { message: 'Message sent successfully' },
       { status: 200 }
